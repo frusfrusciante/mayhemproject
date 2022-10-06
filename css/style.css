@@ -1,0 +1,562 @@
+/* oswald-700 - latin_cyrillic */
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/oswald-v49-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/oswald-v49-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/montserrat-v25-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v25-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* montserrat-500 - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/montserrat-v25-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v25-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* montserrat-600 - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/montserrat-v25-latin_cyrillic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v25-latin_cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* montserrat-700 - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/montserrat-v25-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v25-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    color: black;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__container {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.header__nav {
+    margin: auto 0;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__item {
+    margin-right: 53px;
+}
+
+.header__item:last-child{
+    margin-right: 0px;
+}
+
+.header__link {
+    color: white;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    color: white;
+    text-decoration: none;
+    opacity: .75;
+}
+
+main {
+    width: 100%;
+}
+
+.intro {
+    min-height: 100vh;
+    background: url(../img/bg.png) no-repeat center;
+    background-size: cover;
+}
+
+.container__main {
+    padding-top: 226px;
+}
+
+.second-container {
+    display: flex;
+}
+
+.second-text {
+    padding-top: 40px;
+}
+
+h1 {
+    font-family: 'Oswald';
+    font-size: 54px;
+    color: white;
+    height: 200px;
+}
+
+.small-info {
+    color: white;
+    height: 60px;
+}
+
+.intro-button{
+    width: 226px;
+    height: 48px;
+    background-color: #961914;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.second {
+    padding-top: 180px;
+}
+
+.second__title {
+    font-family: 'Oswald';
+    font-size: 46px;
+    color: rgb(0, 0, 0);
+    height: 80px;
+}
+
+.second__small-info {
+    max-width: 548px;
+    height: 90px;
+}
+
+.pre-ul {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    list-style-type: circle;
+    height: 30px;
+}
+
+.food {
+    list-style: circle inside;
+}
+
+.food__list {
+    height: 35px;
+}
+
+.red-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    max-width: 1140px;
+    height: 288px;
+    background-color: #EAD1D0;
+}
+
+.red-container__inside {
+    display: grid;
+    grid-template-columns: 80% 200px;
+    margin: auto;
+    height: 250px;
+    width: 900px;
+}
+
+.info-title {
+    font-family: 'Montserrat';
+    height: 50px;
+    font-weight: 600;
+    color: black;
+    font-size: 24px;
+}
+
+.info-list {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #434242;
+    height: 30px;
+}
+
+.third {
+    padding-top: 180px;
+}
+
+.repertuar {
+    color: black;
+    width: 1100px;
+}
+
+.top-info {
+    margin-left: 60px;
+    display: flex;
+}
+
+.order {
+    width: 250px;
+}
+
+.order-info__name {
+    padding-top: 16px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: black;
+    height: auto;
+    font-size: 20px;
+}
+
+.info-orders {
+    display: grid;
+    grid-template-columns: 320px 320px 320px 320px;
+}
+
+.quick-info {
+    font-size: 15.5px;
+    color: #9F9E9D;
+    padding-top: 10px;
+    height: 40px;
+}
+
+.order-button {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    width: 200px;
+    border: 3px solid #961914;
+    height: 60px;
+    background-color: white;
+    border-radius: 20px;
+    color: #961914;
+}
+
+.food-size__container {
+    margin-top: 40px;
+    background-color: #EAD1D0;
+    max-width: 1200px;
+    height: 184px;
+    display: flex;
+}
+
+.something {
+    margin: auto;
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-size__information {
+    width: 600px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.food-size__button {
+    height: 60px;
+    width: 240px;
+}
+
+.food-size__button {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    background-color: #961914;
+}
+
+.why-us {
+    padding-top: 180px;
+}
+
+.why-us__name {
+    color: black;
+    height: 120px;
+}
+
+.answers {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+}
+
+.small-answer__name {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.small-answer__information {
+    font-size: 18px;
+    padding-top: 8px;
+    max-width: 280px;
+}
+
+.love {
+    background-color: #FFF4F3;
+    margin-top:180px;
+    height: 650px;
+}
+
+.red-big-container {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    background-color: #FFF4F3;
+}
+
+.dogs {
+    padding-top: 30px;
+}
+
+.first-dog {
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 120px;
+    height: 400px;
+}
+
+.second-dog {
+    padding-top: 290px;
+    padding-left: 300px;
+    position: absolute;
+    height: 220px;
+}
+
+.r-b-c-text {
+    font-size: 14px;
+    padding-top:20px;
+    padding-right: 30px;
+    max-width: 400px;
+}
+
+.dog-text__p {
+    margin-top: 30px;
+    font-size: 36px;
+    height: auto;
+    color: black;
+}
+
+.how-to-get {
+    padding-top: 180px;
+}
+
+
+.how-to-get__text {
+    height: 120px;
+    color: black;
+}
+
+.faq {
+    padding-top: 180px;
+}
+.answer-text {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.faq-text {
+    color: black;
+    height: auto;
+}
+
+.answer-li {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    height: 60px;
+}
+
+.footer {
+    height: 340px;
+    margin-top: 180px;
+    background-color: #961914;
+}
+
+.contacts-text {
+    font-size: 46px;
+    padding-top: 30px;
+    height: 70px;
+}
+
+.footer-small-text {
+    color: white;
+    height: 70px;
+}
+
+.number {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+    height: 50px;
+}
+
+.under-number {
+    background-color: #ac4541;
+    color: white;
+    border: 0px solid black;
+    border-radius: 4px;
+    height: 40px;
+    width: 223px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.footer__grid-box {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.question {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    height: 24px;
+    color: white;
+    padding-top: 40px;
+}
+
+.question-answ {
+    color: white;
+    height: 75px;
+}
+
+#name {
+    
+    width: 50%;
+}
+
+.inp {
+    height: 25px;
+    color: white;
+    background-color: #ac4541;
+    border: 3px solid #961914;
+    border-radius: 10px;
+}
+
+.inp::placeholder {
+    color: white;
+    opacity: 0.6;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.big-q {
+    width: 85%;
+    padding-bottom: 90px;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+.img-dog img {
+    width: 300px;
+}
+.info-orders {
+    padding-left: 200px;
+    grid-template-columns: 320px 320px;
+    grid-row-gap: 2%;
+    margin: 0 auto;
+}
+
+.answers {
+    grid-template-columns: 320px 320px;
+    grid-row-gap: 2%;
+}
+} 
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    .red-big-container {
+        grid-template-columns: 65% 45%
+    }
+    .img-dog img {
+        width: 250px;
+    }
+    .info-orders {
+        padding-left: 200px;
+        grid-template-columns: 320px 320px;
+        grid-row-gap: 2%;
+        margin: 0 auto;
+    }
+    
+    .answers {
+        grid-template-columns: 320px 320px;
+        grid-row-gap: 2%;
+    }
+} 
+@media all and (min-width: 480px) and (max-width: 768px) { 
+    .header__list {
+        flex-direction: column;
+    }
+    .dog-pic {
+        height: 150px;
+    }
+    .second-container {
+        flex-direction: column;
+
+    }
+
+    .info-orders {
+        grid-template-columns: 320px;
+        grid-row-gap: 2%;
+    }
+
+    .food-size__container {
+        margin-top: 170px;
+    }
+
+    .food-size__information {
+        max-width: 200px;
+    }
+
+    .answers {
+        grid-template-columns: 320px;
+        grid-row-gap: 2%;
+    }
+
+    .first-dog {
+        height: 195px;
+    }
+
+    .second-dog {
+        height: 118px;
+        padding-top: 170px;
+        padding-left: 74px;
+    }
+
+    .red-container__inside {
+        grid-template-columns: 60% 200px;
+    }
+
+} 
+@media all and (max-width: 480px) {
+
+}
